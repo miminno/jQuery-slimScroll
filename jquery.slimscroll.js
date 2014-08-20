@@ -76,7 +76,13 @@
                 borderRadius: '7px',
 
                 // sets border radius of the rail
-                railBorderRadius: '7px'
+                railBorderRadius: '7px',
+
+                // animate
+                animate: false,
+
+                // delay for mousemove event
+                scrollDelay: 0
             };
 
             var o = $.extend(defaults, options);
